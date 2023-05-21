@@ -1,0 +1,22 @@
+.about-us {
+    display: flex;
+    min-height: 720px;
+    overflow: hidden;
+}
+
+.about-us__image {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    background: var(--color-white);
+
+    position: relative;
+}
+
+.about-us__image div {
+    padding: 32px 64px;
+
+    flex: 1;
+}

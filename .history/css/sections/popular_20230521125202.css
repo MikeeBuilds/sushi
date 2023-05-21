@@ -1,0 +1,29 @@
+.popular-foods {
+    padding: 64px;
+    display: flex;
+    flex-direction: column;
+
+    background: var(--primary-color);
+    background-image: url("../../assets/popular_bg.png");
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    overflow: hidden;
+}
+
+.popular-foods__title {
+    margin-bottom: 32px;
+    font-family: var(--playfair-display);
+    line-height: 78px;
+    font-size: 56px;
+    font-weight: 700;
+    color: var(--color-white);
+    text-align: center;
+}
+
+.popular-foods__filters {
+    margin-top: 48px;
+    max-width: 100%;
+    overflow-x: auto;
+}

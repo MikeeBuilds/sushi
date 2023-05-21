@@ -1,0 +1,8 @@
+.popular-foods {
+    padding: 64px;
+    display: flex;
+    flex-direction: column;
+
+    background: var(--primary-color);
+    
+}

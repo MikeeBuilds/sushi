@@ -1,0 +1,12 @@
+.about-us {
+    display: flex;
+    min-height: 720px;
+    overflow: hidden;
+}
+
+.about-us__image {
+    flex: 1;
+    background-image: url(../images/about-us.jpg);
+    background-size: cover;
+    background-position: center;
+}
