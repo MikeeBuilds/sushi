@@ -1,0 +1,21 @@
+.trending {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.trending__discover {
+
+}
+
+.trending-sushi, .trending-drink {
+    width: 100%;
+    min-height: 640px;
+
+    display: flex;
+    flex-direction: row;
+}
+ 
+.trending__content {}
+fle
